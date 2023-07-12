@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+/* div{
+  background-color: red;
+} */
+
+body{
+  margin: 0;
+  background-color: rgb(228, 228, 228);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.preNav > div{
+  padding: 0vmax 4vmax;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.preNav > div > span{
+  background-color: rgba(180, 180, 180, 0.644);
+  font-size: 0.8vmax;
+  font-weight: 100;
+}
+
+.preNav > div svg{
+  fill: rgb(180, 180, 180)  ;
+}
+
+.preNav > div svg:hover{
+  fill: rgb(255, 255, 255);
+}
+
+.preNav > div > a{
+  color: rgb(180, 180, 180);
+  font-size: 0.9vmax;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  margin: 1vmax;
+  text-decoration: none;
+}
+
+.preNav > div > a:hover{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
